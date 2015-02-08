@@ -1,0 +1,1 @@
+{"hash":"d41d8cd98f00b204e9800998ecf8427e","connections":{"production":{"servers":{"":{"host":"localhost","username":"vagrant","password":"vagrant","keyphrase":null,"key":null,"agent":null}}}},"credentials":{"repository":"https:\/\/github.com\/ajduncan\/drupalenv.git","username":null,"password":null}}
