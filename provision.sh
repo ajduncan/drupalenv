@@ -52,6 +52,10 @@ mv composer.phar /usr/local/bin/composer
 ln -s /usr/local/bin/composer /usr/bin/composer
 echo "Done."
 
+echo "Installing rocketeer (for now): "
+curl http://rocketeer.autopergamene.eu/versions/rocketeer.phar > /usr/local/bin/rocketeer && chmod 755 /usr/local/bin/rocketeer
+echo "Done."
+
 echo "Installing drush: "
 # composer global require drush/drush:6.*
 git clone https://github.com/drush-ops/drush.git /usr/local/src/drush
